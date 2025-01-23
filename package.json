@@ -1,13 +1,14 @@
 {
   "homepage": "https://sayandeepbanerjee1.github.io/EmitechSample",
   "name": "emitech",
+  "rootpath": "EmitechSample",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist",
     "dev": "vite",
     "build": "vite build",
