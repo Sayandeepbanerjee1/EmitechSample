@@ -57,7 +57,7 @@ const ServiceCard = ({ image, title, description }) => {
 
 const ServicesSection = () => {
   return (
-    <div className="container mx-auto px-10 px-5 py-12 pt-10">
+    <div className="container mx-auto px-10 mt-12 py-12 pt-10">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service, index) => (

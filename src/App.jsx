@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import ServicesSection from './components/Services.jsx';
-import About from './components/About/About.jsx';
+import About from './components/About.jsx';
 // import Portfolio from './components/Portfolio.jsx';
 import Footer from './components/Footer.jsx';
 import Contact from './components/Contact.jsx';
@@ -14,6 +14,7 @@ import PartnerDropDown from './components/Nav/AboutUs/PartnerDropDown.jsx';
 import OurCapabilities from './components/Nav/AboutUs/OurCapabilities.jsx';
 import WhyArc from './components/Nav/AboutUs/WhyArc.jsx';
 import Awards from './components/Nav/AboutUs/Awards.jsx';
+import SuccessStories from './components/Nav/AboutUs/SuccessStories.jsx';
 import GeoSpatial from './components/Nav/OurServices/GeoSpatial.jsx';
 import Gps from './components/Nav/OurServices/Gps.jsx';
 import AppDev from './components/Nav/OurServices/AppDev.jsx';
@@ -115,6 +116,7 @@ function App() {
           <Route path='/PartnerDropDown' element={<PartnerDropDown />} />
           <Route path='/OurCapabilities' element={<OurCapabilities />} />
           <Route path='/WhyArc' element={<WhyArc />} />
+          <Route path='/SuccessStories' element= {<SuccessStories />} />
           <Route path='/Awards' element={<Awards />} />
           <Route path ="/GeoSpatial" element = {<GeoSpatial />} />
           <Route path ="/Gps" element = {<Gps />} />
